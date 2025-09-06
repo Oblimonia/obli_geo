@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- ACTION: Regional Units from this country only -->
+    <record id="action_region_unit_tree" model="ir.actions.act_window">
+        <field name="name">Regional Units</field>
+        <field name="res_model">region.unit</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('country_id', '=', active_id)]</field>
+        <field name="context">{'default_country_id': active_id}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No regional units for this country yet.
+            </p>
+            <p>
+                Regional Units are the second-level administrative divisions under Regions.
+                Create them here to enable clean address selection and validation.
+            </p>
+        </field>
+    </record>
+
+    <!-- ACTION: Municipalities from this country only -->
+    <record id="action_region_municipality_tree" model="ir.actions.act_window">
+        <field name="name">Municipalities</field>
+        <field name="res_model">region.municipality</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('country_id', '=', active_id)]</field>
+        <field name="context">{'default_country_id': active_id}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No municipalities for this country yet.
+            </p>
+            <p>
+                Municipalities are the third-level administrative divisions.
+                Link each to its Regional Unit to keep addresses consistent and searchable.
+            </p>
+        </field>
+    </record>
+
+    <!-- FORM -->
+    <record id="view_country_form_inherit_obli_geo" model="ir.ui.view">
+        <field name="name">res.country.form.inherit.obli.geo</field>
+        <field name="model">res.country</field>
+        <field name="inherit_id" ref="base.view_country_form"/>
+        <field name="arch" type="xml">
+            <!-- Rename States to Regions and add help -->
+            <xpath expr="//sheet//field[@name='state_ids']" position="attributes">
+                <attribute name="string">Regions</attribute>
+                <attribute name="help">
+                    Top-level administrative areas for this country. This is the standard
+                    Odoo “States” field, repurposed and labeled as “Regions”.
+                </attribute>
+            </xpath>
+            <!-- Stat buttons with tooltips -->
+            <xpath expr="//sheet//div[@class='oe_button_box']" position="inside">
+                <button name="%(obli_geo.action_region_municipality_tree)d"
+                        class="oe_stat_button"
+                        icon="fa-map-marker"
+                        type="action"
+                        help="Open Municipalities linked to this Country. New records will default to this Country.">
+                        <div class="o_field_widget o_stat_info">
+                            <span class="o_stat_text">Municipalities</span>
+                        </div>
+                </button>
+                <button name="%(obli_geo.action_region_unit_tree)d"
+                        class="oe_stat_button"
+                        icon="fa-map"
+                        type="action"
+                        help="Open Regional Units linked to this Country. New records will default to this Country.">
+                        <div class="o_field_widget o_stat_info">
+                            <span class="o_stat_text">Regional Units</span>
+                        </div>
+                </button>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

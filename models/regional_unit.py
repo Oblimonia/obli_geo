@@ -30,7 +30,7 @@ class RegionalUnit(models.Model):
         help=_("Country of the parent Region (related).")
     )
     municipality_ids = fields.One2many(
-        comodel_name="region.municipality", inverse_name="regional_unit_ids",
+        comodel_name="region.municipality", inverse_name="regional_unit_id",
         string=_("Municipalities"),
         help=_("Municipalities that belong to this Regional Unit.")
     )

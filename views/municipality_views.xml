@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- TREE -->
+    <record id="view_region_municipality_tree" model="ir.ui.view">
+        <field name="name">region.municipality.tree</field>
+        <field name="model">region.municipality</field>
+        <field name="arch" type="xml">
+            <tree string="Municipalities">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="regional_unit_id"/>
+                <field name="region_id" optional="hide"/>
+                <field name="country_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- FORM -->
+    <record id="view_region_municipality_form" model="ir.ui.view">
+        <field name="name">region.municipality.form</field>
+        <field name="model">region.municipality</field>
+        <field name="arch" type="xml">
+            <form string="Municipality">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1><field name="name" placeholder="Municipality name"/></h1>
+                    </div>
+
+                    <group>
+                        <group>
+                            <field name="code"/>
+                        </group>
+                        <group>
+                            <field name="country_id" options="{'no_open': True}"/>
+                            <field name="region_id"
+                                   domain="[('country_id', '=', country_id)]"
+                                   context="{'default_country_id': country_id}"/>
+                            <field name="regional_unit_id"
+                                   domain="[('country_id', '=', country_id), ('region_id', '=', region_id)]"
+                                   context="{
+                                       'default_country_id': country_id,
+                                       'default_region_id': region_id
+                                   }"/>
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Cities">
+                            <field name="city_ids"
+                                   context="{
+                                       'default_country_id': country_id,
+                                       'default_region_id': region_id,
+                                       'default_regional_unit_id': regional_unit_id,
+                                       'default_municipality_id': id
+                                   }"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- SEARCH -->
+    <record id="view_region_municipality_search" model="ir.ui.view">
+        <field name="name">region.municipality.search</field>
+        <field name="model">region.municipality</field>
+        <field name="arch" type="xml">
+            <search string="Search Municipalities">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="country_id"/>
+                <field name="region_id"/>
+                <field name="regional_unit_id"/>
+                <filter name="filter_country_gr" string="Greece" domain="[('country_id.code', '=', 'GR')]"/>
+                <group expand="0" string="Group By">
+                    <filter name="group_by_country" string="Country" context="{'group_by': 'country_id'}"/>
+                    <filter name="group_by_region" string="Region" context="{'group_by': 'region_id'}"/>
+                    <filter name="group_by_reg_unit" string="Regional Unit" context="{'group_by': 'regional_unit_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- ACTION: Override existing action -->
+    <record id="base.action_country_state" model="ir.actions.act_window">
+        <field name="name">Regions</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a Region
+            </p>
+            <p>
+                Regions belong to countries and are part of your contacts' addresses.
+            </p>
+        </field>
+    </record>
+
+    <!-- Change state menu name -->
+    <record id="contacts.menu_country_state_partner" model="ir.ui.menu">
+        <field name="name">Regions</field>
+    </record>
+
+    <!-- TREE: base.view_country_state_tree -->
+    <record id="view_state_tree_inherit_obli" model="ir.ui.view">
+        <field name="name">res.country.state.tree.inherit.obli</field>
+        <field name="model">res.country.state</field>
+        <field name="inherit_id" ref="base.view_country_state_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="string">Regions</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- FORM: base.view_country_state_form -->
+    <record id="view_state_form_inherit_obli" model="ir.ui.view">
+        <field name="name">res.country.state.form.inherit.obli</field>
+        <field name="model">res.country.state</field>
+        <field name="inherit_id" ref="base.view_country_state_form"/>
+        <field name="arch" type="xml">
+            <!-- Rename State with Region -->
+            <xpath expr="//form" position="attributes">
+                <attribute name="string">Region</attribute>
+            </xpath>
+            <xpath expr="//form//field[@name='name']" position="attributes">
+                <attribute name="string">Region</attribute>
+            </xpath>
+            <xpath expr="//form//field[@name='code']" position="attributes">
+                <attribute name="string">Region Code</attribute>
+            </xpath>
+
+            <!-- Append a notebook tab inside the sheet to manage Regional Units -->
+            <xpath expr="//sheet" position="inside">
+                <notebook>
+                    <page string="Regional Units" name="regional_units_page">
+                        <field name="regional_unit_ids"
+                               context="{
+                                   'default_region_id': id,
+                                   'default_country_id': country_id
+                               }"/>
+                    </page>
+                </notebook>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- SEARCH: base.view_country_state_search -->
+    <record id="view_state_search_inherit_obli" model="ir.ui.view">
+        <field name="name">res.country.state.search.inherit.obli</field>
+        <field name="model">res.country.state</field>
+        <field name="inherit_id" ref="base.view_country_state_search"/>
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <filter name="filter_country_gr" string="Greece" domain="[('country_id.code', '=', 'GR')]"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

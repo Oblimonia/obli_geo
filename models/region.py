@@ -12,6 +12,14 @@ class ResCountryState(models.Model):
 
     _inherit = "res.country.state"
 
+    name = fields.Char(
+        string=_("Region Name"), required=True, index=True, translate=True,
+        help=_("Top-level administrative areas for a country.  E.g. Fed. State, Departement, Canton")
+    )
+    code = fields.Char(
+        string=_("Region Code"), required=True,
+        help=_("Short code for the Region.")
+    )
     regional_unit_ids = fields.One2many(
         comodel_name="region.unit",
         inverse_name="region_id",

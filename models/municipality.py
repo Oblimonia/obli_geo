@@ -35,9 +35,6 @@ class ResRegionMunicipality(models.Model):
         help=_("Country of the parent Regional Unit (related).")
     )
     city_ids = fields.One2many(
-        comodel_name="res.city"
-    )
-    city_ids = fields.One2many(
         comodel_name="res.city", inverse_name="municipality_id",
         string=_("Cities"),
         help=_("Cities that belong to this Municipality."),

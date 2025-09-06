@@ -8,6 +8,14 @@ from odoo import fields, models, _
 class ResCity(models.Model):
     _inherit = "res.city"
 
+    name = fields.Char(
+        string=_("Name"), required=True, translate=True,
+        help=_("Name of the city")
+    )
+    zipcode = fields.Char(
+        string=_("Zip"),
+        help=_("Zip code of the city")
+    )
     municipality_id = fields.Many2one(
         comodel_name="region.municipality",
         string=_("Municipality"), index=True, ondelete="restrict",
@@ -19,8 +27,12 @@ class ResCity(models.Model):
         string=_("Regional Unit"), store=True, readonly=True, index=True,
         help=_("Regional Unit of the parent Municipality (related).")
     )
-    region_id = fields.Many2one(
+    state_id = fields.Many2one(
         comodel_name="res.country.state", related="municipality_id.region_id",
         string=_("Region"), store=True, readonly=True, index=True,
         help=_("Region of the parent Municipality (related).")
+    )
+    country_id = fields.Many2one(
+        comodel_name="res.country", related="municipality_id.region_id.country_id",
+        string=_("Country"), required=True
     )
