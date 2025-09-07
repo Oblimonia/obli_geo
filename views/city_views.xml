@@ -11,11 +11,10 @@
                 <tree string="City" editable="top">
                     <field name="name"/>
                     <field name="zipcode"/>
-                    <field name="municipality_id" context="{'default_country_id': country_id}"
+                    <field name="municipality_id"  domain="[('country_id', '=', country_id)]"/>
+                    <field name="regional_unit_id" optional="hide" domain="[('country_id', '=', country_id)]"
                            options="{'no_open': True, 'no_create': True}"/>
-                    <field name="regional_unit_id" optional="hide" context="{'default_country_id': country_id}"
-                           options="{'no_open': True, 'no_create': True}"/>
-                    <field name="state_id" optional="hide" context="{'default_country_id': country_id}"
+                    <field name="state_id" optional="hide" domain="[('country_id', '=', country_id)]"
                            options="{'no_open': True, 'no_create': True}"/>
                     <field name="country_id" options="{'no_open': True, 'no_create': True}"/>
                 </tree>

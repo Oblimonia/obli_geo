@@ -1,0 +1,333 @@
+id,name,code,regional_unit_id:id,country_id:id
+gr_muni_11101,Komotinis,11101,gr_regunit_1101,base.gr
+gr_muni_11102,Arrianon,11102,gr_regunit_1101,base.gr
+gr_muni_11103,Iasmoy,11103,gr_regunit_1101,base.gr
+gr_muni_11104,Maroneias - Sapon,11104,gr_regunit_1101,base.gr
+gr_muni_11201,Dramas,11201,gr_regunit_1102,base.gr
+gr_muni_11202,Doxatoy,11202,gr_regunit_1102,base.gr
+gr_muni_11203,Kato Neyrokopioy,11203,gr_regunit_1102,base.gr
+gr_muni_11204,Paranestioy,11204,gr_regunit_1102,base.gr
+gr_muni_11205,Prosotsanis,11205,gr_regunit_1102,base.gr
+gr_muni_11301,Alexandroypolis,11301,gr_regunit_1103,base.gr
+gr_muni_11302,Didymoteichoy,11302,gr_regunit_1103,base.gr
+gr_muni_11303,Orestiadas,11303,gr_regunit_1103,base.gr
+gr_muni_11304,Samothrakis,11304,gr_regunit_1103,base.gr
+gr_muni_11305,Soyflioy,11305,gr_regunit_1103,base.gr
+gr_muni_11401,Thasoy,11401,gr_regunit_1104,base.gr
+gr_muni_11501,Kavalas,11501,gr_regunit_1105,base.gr
+gr_muni_11502,Nestoy,11502,gr_regunit_1105,base.gr
+gr_muni_11503,Paggaioy,11503,gr_regunit_1105,base.gr
+gr_muni_11601,Xanthis,11601,gr_regunit_1106,base.gr
+gr_muni_11602,Avdiron,11602,gr_regunit_1106,base.gr
+gr_muni_11603,Mykis,11603,gr_regunit_1106,base.gr
+gr_muni_11604,Topeiroy,11604,gr_regunit_1106,base.gr
+gr_muni_12701,Thessalonikis,12701,gr_regunit_1207,base.gr
+gr_muni_12702,Ampelokipon - Menemenis,12702,gr_regunit_1207,base.gr
+gr_muni_12703,Volvis,12703,gr_regunit_1207,base.gr
+gr_muni_12704,Delta,12704,gr_regunit_1207,base.gr
+gr_muni_12705,Thermaœäkoy,12705,gr_regunit_1207,base.gr
+gr_muni_12706,Thermis,12706,gr_regunit_1207,base.gr
+gr_muni_12707,Kalamarias,12707,gr_regunit_1207,base.gr
+gr_muni_12708,Kordelioy - Eyosmoy,12708,gr_regunit_1207,base.gr
+gr_muni_12709,Lagkada,12709,gr_regunit_1207,base.gr
+gr_muni_12710,Neapolis - Sykeon,12710,gr_regunit_1207,base.gr
+gr_muni_12711,Payloy Mela,12711,gr_regunit_1207,base.gr
+gr_muni_12712,Pylaias - Chortiati,12712,gr_regunit_1207,base.gr
+gr_muni_12713,Chalkidonos,12713,gr_regunit_1207,base.gr
+gr_muni_12714,Oraiokastroy,12714,gr_regunit_1207,base.gr
+gr_muni_12801,Veroias,12801,gr_regunit_1208,base.gr
+gr_muni_12802,Alexandreias,12802,gr_regunit_1208,base.gr
+gr_muni_12803,Iroikis Poleos Naoysas,12803,gr_regunit_1208,base.gr
+gr_muni_12901,Kilkis,12901,gr_regunit_1209,base.gr
+gr_muni_12902,Paionias,12902,gr_regunit_1209,base.gr
+gr_muni_121001,Edessas,121001,gr_regunit_1210,base.gr
+gr_muni_121002,Almopias,121002,gr_regunit_1210,base.gr
+gr_muni_121003,Pellas,121003,gr_regunit_1210,base.gr
+gr_muni_121004,Skydras,121004,gr_regunit_1210,base.gr
+gr_muni_121101,Katerinis,121101,gr_regunit_1211,base.gr
+gr_muni_121102,Dioy - Olympoy,121102,gr_regunit_1211,base.gr
+gr_muni_121103,Pydnas - Kolindroy,121103,gr_regunit_1211,base.gr
+gr_muni_121201,Serron,121201,gr_regunit_1212,base.gr
+gr_muni_121202,Amfipolis,121202,gr_regunit_1212,base.gr
+gr_muni_121203,Visaltias,121203,gr_regunit_1212,base.gr
+gr_muni_121204,Emmanoyil Pappa,121204,gr_regunit_1212,base.gr
+gr_muni_121205,Irakleias,121205,gr_regunit_1212,base.gr
+gr_muni_121206,Neas Zichnis,121206,gr_regunit_1212,base.gr
+gr_muni_121207,Sintikis,121207,gr_regunit_1212,base.gr
+gr_muni_121301,Polygyroy,121301,gr_regunit_1213,base.gr
+gr_muni_121302,Aristoteli,121302,gr_regunit_1213,base.gr
+gr_muni_121303,Kassandras,121303,gr_regunit_1213,base.gr
+gr_muni_121304,Neas Propontidas,121304,gr_regunit_1213,base.gr
+gr_muni_121305,Sithonias,121305,gr_regunit_1213,base.gr
+gr_muni_211401,Kozanis,211401,gr_regunit_2114,base.gr
+gr_muni_211402,Voœäoy,211402,gr_regunit_2114,base.gr
+gr_muni_211403,Eordaias,211403,gr_regunit_2114,base.gr
+gr_muni_211404,Servion,211404,gr_regunit_2114,base.gr
+gr_muni_211405,Velventoy,211405,gr_regunit_2114,base.gr
+gr_muni_211501,Grevenon,211501,gr_regunit_2115,base.gr
+gr_muni_211502,Deskatis,211502,gr_regunit_2115,base.gr
+gr_muni_211601,Kastorias,211601,gr_regunit_2116,base.gr
+gr_muni_211602,Nestorioy,211602,gr_regunit_2116,base.gr
+gr_muni_211603,Argoys Orestikoy,211603,gr_regunit_2116,base.gr
+gr_muni_211701,Florinas,211701,gr_regunit_2117,base.gr
+gr_muni_211702,Amyntaioy,211702,gr_regunit_2117,base.gr
+gr_muni_211703,Prespon,211703,gr_regunit_2117,base.gr
+gr_muni_221801,Ioanniton,221801,gr_regunit_2218,base.gr
+gr_muni_221802,Voreion Tzoymerkon,221802,gr_regunit_2218,base.gr
+gr_muni_221803,Dodonis,221803,gr_regunit_2218,base.gr
+gr_muni_221804,Zagorioy,221804,gr_regunit_2218,base.gr
+gr_muni_221805,Zitsas,221805,gr_regunit_2218,base.gr
+gr_muni_221806,Konitsas,221806,gr_regunit_2218,base.gr
+gr_muni_221807,Metsovoy,221807,gr_regunit_2218,base.gr
+gr_muni_221808,Pogonioy,221808,gr_regunit_2218,base.gr
+gr_muni_221901,Artaion,221901,gr_regunit_2219,base.gr
+gr_muni_221902,Georgioy Karaœäskaki,221902,gr_regunit_2219,base.gr
+gr_muni_221903,Kentrikon Tzoymerkon,221903,gr_regunit_2219,base.gr
+gr_muni_221904,Nikolaoy Skoyfa,221904,gr_regunit_2219,base.gr
+gr_muni_222001,Igoymenitsas,222001,gr_regunit_2220,base.gr
+gr_muni_222002,Soylioy,222002,gr_regunit_2220,base.gr
+gr_muni_222003,Filiaton,222003,gr_regunit_2220,base.gr
+gr_muni_222101,Prevezas,222101,gr_regunit_2221,base.gr
+gr_muni_222102,Ziroy,222102,gr_regunit_2221,base.gr
+gr_muni_222103,Pargas,222103,gr_regunit_2221,base.gr
+gr_muni_312201,Larisaion,312201,gr_regunit_3122,base.gr
+gr_muni_312202,Agias,312202,gr_regunit_3122,base.gr
+gr_muni_312203,Elassonas,312203,gr_regunit_3122,base.gr
+gr_muni_312204,Kileler,312204,gr_regunit_3122,base.gr
+gr_muni_312205,Tempon,312205,gr_regunit_3122,base.gr
+gr_muni_312206,Tyrnavoy,312206,gr_regunit_3122,base.gr
+gr_muni_312207,Farsalon,312207,gr_regunit_3122,base.gr
+gr_muni_312301,Karditsas,312301,gr_regunit_3123,base.gr
+gr_muni_312302,Argitheas,312302,gr_regunit_3123,base.gr
+gr_muni_312303,Limnis Plastira,312303,gr_regunit_3123,base.gr
+gr_muni_312304,Moyzakioy,312304,gr_regunit_3123,base.gr
+gr_muni_312305,Palama,312305,gr_regunit_3123,base.gr
+gr_muni_312306,Sofadon,312306,gr_regunit_3123,base.gr
+gr_muni_312401,Voloy,312401,gr_regunit_3124,base.gr
+gr_muni_312402,Almyroy,312402,gr_regunit_3124,base.gr
+gr_muni_312403,Zagoras - Moyresioy,312403,gr_regunit_3124,base.gr
+gr_muni_312404,Notioy Pilioy,312404,gr_regunit_3124,base.gr
+gr_muni_312405,Riga Feraioy,312405,gr_regunit_3124,base.gr
+gr_muni_312501,Skiathoy,312501,gr_regunit_3125,base.gr
+gr_muni_312502,Alonnisoy,312502,gr_regunit_3125,base.gr
+gr_muni_312503,Skopeloy,312503,gr_regunit_3125,base.gr
+gr_muni_312601,Trikkaion,312601,gr_regunit_3126,base.gr
+gr_muni_312602,Meteoron,312602,gr_regunit_3126,base.gr
+gr_muni_312603,Pylis,312603,gr_regunit_3126,base.gr
+gr_muni_312604,Farkadonas,312604,gr_regunit_3126,base.gr
+gr_muni_322701,Lamieon,322701,gr_regunit_3227,base.gr
+gr_muni_322702,Amfikleias - Elateias,322702,gr_regunit_3227,base.gr
+gr_muni_322703,Domokoy,322703,gr_regunit_3227,base.gr
+gr_muni_322704,Lokron,322704,gr_regunit_3227,base.gr
+gr_muni_322705,Makrakomis,322705,gr_regunit_3227,base.gr
+gr_muni_322706,Kamenon Voyrlon,322706,gr_regunit_3227,base.gr
+gr_muni_322707,Stylidos,322707,gr_regunit_3227,base.gr
+gr_muni_322801,Levadeon,322801,gr_regunit_3228,base.gr
+gr_muni_322802,Aliartoy - Thespieon,322802,gr_regunit_3228,base.gr
+gr_muni_322803,Distomoy - Arachovas - Antikyras,322803,gr_regunit_3228,base.gr
+gr_muni_322804,Thivaion,322804,gr_regunit_3228,base.gr
+gr_muni_322805,Orchomenoy,322805,gr_regunit_3228,base.gr
+gr_muni_322806,Tanagras,322806,gr_regunit_3228,base.gr
+gr_muni_322901,Chalkideon,322901,gr_regunit_3229,base.gr
+gr_muni_322902,Dirfyon - Messapion,322902,gr_regunit_3229,base.gr
+gr_muni_322903,Eretrias,322903,gr_regunit_3229,base.gr
+gr_muni_322904,Istiaias - Aidipsoy,322904,gr_regunit_3229,base.gr
+gr_muni_322905,Karystoy,322905,gr_regunit_3229,base.gr
+gr_muni_322906,Kymis - Aliverioy,322906,gr_regunit_3229,base.gr
+gr_muni_322907,Mantoydioy - Limnis - Agias Annas,322907,gr_regunit_3229,base.gr
+gr_muni_322908,Skyroy,322908,gr_regunit_3229,base.gr
+gr_muni_323001,Karpenisioy,323001,gr_regunit_3230,base.gr
+gr_muni_323002,Agrafon,323002,gr_regunit_3230,base.gr
+gr_muni_323101,Delfon,323101,gr_regunit_3231,base.gr
+gr_muni_323102,Doridos,323102,gr_regunit_3231,base.gr
+gr_muni_413201,Kentrikis Corfus Kai Diapontion Nison,413201,gr_regunit_4132,base.gr
+gr_muni_413202,Paxon,413202,gr_regunit_4132,base.gr
+gr_muni_413203,Voreias Corfus,413203,gr_regunit_4132,base.gr
+gr_muni_413204,Notias Corfus,413204,gr_regunit_4132,base.gr
+gr_muni_413301,Zakynthoy,413301,gr_regunit_4133,base.gr
+gr_muni_413401,Ithacas,413401,gr_regunit_4134,base.gr
+gr_muni_413501,Argostolioy,413501,gr_regunit_4135,base.gr
+gr_muni_413502,Lixoyrioy,413502,gr_regunit_4135,base.gr
+gr_muni_413503,Samis,413503,gr_regunit_4135,base.gr
+gr_muni_413601,Leykadas,413601,gr_regunit_4136,base.gr
+gr_muni_413602,Meganisioy,413602,gr_regunit_4136,base.gr
+gr_muni_423701,Patreon,423701,gr_regunit_4237,base.gr
+gr_muni_423702,Aigialeias,423702,gr_regunit_4237,base.gr
+gr_muni_423703,Dytikis Achaœäas,423703,gr_regunit_4237,base.gr
+gr_muni_423704,Erymanthoy,423704,gr_regunit_4237,base.gr
+gr_muni_423705,Kalavryton,423705,gr_regunit_4237,base.gr
+gr_muni_423801,Ieras Polis Mesologgioy,423801,gr_regunit_4238,base.gr
+gr_muni_423802,Aktioy - Vonitsas,423802,gr_regunit_4238,base.gr
+gr_muni_423803,Agrinioy,423803,gr_regunit_4238,base.gr
+gr_muni_423804,Amfilochias,423804,gr_regunit_4238,base.gr
+gr_muni_423805,Thermoy,423805,gr_regunit_4238,base.gr
+gr_muni_423806,Naypaktias,423806,gr_regunit_4238,base.gr
+gr_muni_423807,Xiromeroy,423807,gr_regunit_4238,base.gr
+gr_muni_423901,Pyrgoy,423901,gr_regunit_4239,base.gr
+gr_muni_423902,Ilidas,423902,gr_regunit_4239,base.gr
+gr_muni_423903,Andravidas - Kyllinis,423903,gr_regunit_4239,base.gr
+gr_muni_423904,Andritsainas - Krestenon,423904,gr_regunit_4239,base.gr
+gr_muni_423905,Archaias Olympias,423905,gr_regunit_4239,base.gr
+gr_muni_423906,Zacharos,423906,gr_regunit_4239,base.gr
+gr_muni_423907,Pineioy,423907,gr_regunit_4239,base.gr
+gr_muni_434001,Tripolis,434001,gr_regunit_4340,base.gr
+gr_muni_434002,Voreias Kynoyrias,434002,gr_regunit_4340,base.gr
+gr_muni_434003,Gortynias,434003,gr_regunit_4340,base.gr
+gr_muni_434004,Megalopolis,434004,gr_regunit_4340,base.gr
+gr_muni_434005,Notias Kynoyrias,434005,gr_regunit_4340,base.gr
+gr_muni_434101,Nayplieon,434101,gr_regunit_4341,base.gr
+gr_muni_434102,Argoys - Mykinon,434102,gr_regunit_4341,base.gr
+gr_muni_434103,Epidayroy,434103,gr_regunit_4341,base.gr
+gr_muni_434104,Ermionidas,434104,gr_regunit_4341,base.gr
+gr_muni_434201,Korinthion,434201,gr_regunit_4342,base.gr
+gr_muni_434202,Veloy - Vochas,434202,gr_regunit_4342,base.gr
+gr_muni_434203,Loytrakioy - Perachoras - Agion Theodoron,434203,gr_regunit_4342,base.gr
+gr_muni_434204,Nemeas,434204,gr_regunit_4342,base.gr
+gr_muni_434205,Xylokastroy - Eyrostinis,434205,gr_regunit_4342,base.gr
+gr_muni_434206,Sikyonion,434206,gr_regunit_4342,base.gr
+gr_muni_434301,Spartas,434301,gr_regunit_4343,base.gr
+gr_muni_434302,Anatolikis Manis,434302,gr_regunit_4343,base.gr
+gr_muni_434303,Elafonisoy,434303,gr_regunit_4343,base.gr
+gr_muni_434304,Eyrota,434304,gr_regunit_4343,base.gr
+gr_muni_434305,Monemvasias,434305,gr_regunit_4343,base.gr
+gr_muni_434401,Kalamatas,434401,gr_regunit_4344,base.gr
+gr_muni_434402,Dytikis Manis,434402,gr_regunit_4344,base.gr
+gr_muni_434403,Messinis,434403,gr_regunit_4344,base.gr
+gr_muni_434404,Oichalias,434404,gr_regunit_4344,base.gr
+gr_muni_434405,Pyloy - Nestoros,434405,gr_regunit_4344,base.gr
+gr_muni_434406,Trifylias,434406,gr_regunit_4344,base.gr
+gr_muni_514501,Athinaion,514501,gr_regunit_5145,base.gr
+gr_muni_514502,Vyronos,514502,gr_regunit_5145,base.gr
+gr_muni_514503,Galatsioy,514503,gr_regunit_5145,base.gr
+gr_muni_514504,Dafnis - Ymittoy,514504,gr_regunit_5145,base.gr
+gr_muni_514505,Zografoy,514505,gr_regunit_5145,base.gr
+gr_muni_514506,Ilioypoleos,514506,gr_regunit_5145,base.gr
+gr_muni_514507,Kaisarianis,514507,gr_regunit_5145,base.gr
+gr_muni_514508,Neas Filadelfeias - Neas Chalkidonos,514508,gr_regunit_5145,base.gr
+gr_muni_514601,Amaroysioy,514601,gr_regunit_5146,base.gr
+gr_muni_514602,Agias Paraskeyis,514602,gr_regunit_5146,base.gr
+gr_muni_514603,Vrilission,514603,gr_regunit_5146,base.gr
+gr_muni_514604,Herakliony,514604,gr_regunit_5146,base.gr
+gr_muni_514605,Kifisias,514605,gr_regunit_5146,base.gr
+gr_muni_514606,Lykovrysis - Peykis,514606,gr_regunit_5146,base.gr
+gr_muni_514607,Metamorfoseos,514607,gr_regunit_5146,base.gr
+gr_muni_514608,Neas Ionias,514608,gr_regunit_5146,base.gr
+gr_muni_514609,Papagoy - Cholargoy,514609,gr_regunit_5146,base.gr
+gr_muni_514610,Pentelis,514610,gr_regunit_5146,base.gr
+gr_muni_514611,Filotheis - Psychikoy,514611,gr_regunit_5146,base.gr
+gr_muni_514612,Chalandrioy,514612,gr_regunit_5146,base.gr
+gr_muni_514701,Peristerioy,514701,gr_regunit_5147,base.gr
+gr_muni_514702,Agias Varvaras,514702,gr_regunit_5147,base.gr
+gr_muni_514703,Agion Anargyron - Kamateroy,514703,gr_regunit_5147,base.gr
+gr_muni_514704,Aigaleo,514704,gr_regunit_5147,base.gr
+gr_muni_514705,Ilioy,514705,gr_regunit_5147,base.gr
+gr_muni_514706,Petroypoleos,514706,gr_regunit_5147,base.gr
+gr_muni_514707,Chaœädarioy,514707,gr_regunit_5147,base.gr
+gr_muni_514801,Kallitheas,514801,gr_regunit_5148,base.gr
+gr_muni_514802,Agioy Dimitrioy,514802,gr_regunit_5148,base.gr
+gr_muni_514803,Alimoy,514803,gr_regunit_5148,base.gr
+gr_muni_514804,Glyfadas,514804,gr_regunit_5148,base.gr
+gr_muni_514805,Ellinikoy - Argyroypolis,514805,gr_regunit_5148,base.gr
+gr_muni_514806,Moschatoy - Tayroy,514806,gr_regunit_5148,base.gr
+gr_muni_514807,Neas Smyrnis,514807,gr_regunit_5148,base.gr
+gr_muni_514808,Palaioy Faliroy,514808,gr_regunit_5148,base.gr
+gr_muni_514901,Acharnon,514901,gr_regunit_5149,base.gr
+gr_muni_514902,Varis - Voylas - Voyliagmenis,514902,gr_regunit_5149,base.gr
+gr_muni_514903,Dionysoy,514903,gr_regunit_5149,base.gr
+gr_muni_514904,Kropias,514904,gr_regunit_5149,base.gr
+gr_muni_514905,Layreotikis,514905,gr_regunit_5149,base.gr
+gr_muni_514906,Marathonos,514906,gr_regunit_5149,base.gr
+gr_muni_514907,Markopoyloy Mesogaias,514907,gr_regunit_5149,base.gr
+gr_muni_514908,Paianias,514908,gr_regunit_5149,base.gr
+gr_muni_514909,Pallinis,514909,gr_regunit_5149,base.gr
+gr_muni_514910,Rafinas - Pikermioy,514910,gr_regunit_5149,base.gr
+gr_muni_514911,Saronikoy,514911,gr_regunit_5149,base.gr
+gr_muni_514912,Spaton - Artemidos,514912,gr_regunit_5149,base.gr
+gr_muni_514913,Oropoy,514913,gr_regunit_5149,base.gr
+gr_muni_515001,Eleysinas,515001,gr_regunit_5150,base.gr
+gr_muni_515002,Aspropyrgoy,515002,gr_regunit_5150,base.gr
+gr_muni_515003,Mandras - Eidyllias,515003,gr_regunit_5150,base.gr
+gr_muni_515004,Megareon,515004,gr_regunit_5150,base.gr
+gr_muni_515005,Fylis,515005,gr_regunit_5150,base.gr
+gr_muni_515101,Peiraios,515101,gr_regunit_5151,base.gr
+gr_muni_515102,Keratsinioy - Drapetsonas,515102,gr_regunit_5151,base.gr
+gr_muni_515103,Korydalloy,515103,gr_regunit_5151,base.gr
+gr_muni_515104,Nikaias - Agioy Ioanni Renti,515104,gr_regunit_5151,base.gr
+gr_muni_515105,Peramatos,515105,gr_regunit_5151,base.gr
+gr_muni_515201,Salaminos,515201,gr_regunit_5152,base.gr
+gr_muni_515202,Ydras,515202,gr_regunit_5152,base.gr
+gr_muni_515203,Agkistrioy,515203,gr_regunit_5152,base.gr
+gr_muni_515204,Aiginas,515204,gr_regunit_5152,base.gr
+gr_muni_515205,Kythiron,515205,gr_regunit_5152,base.gr
+gr_muni_515206,Poroy,515206,gr_regunit_5152,base.gr
+gr_muni_515207,Spetson,515207,gr_regunit_5152,base.gr
+gr_muni_515208,Troizinias - Methanon,515208,gr_regunit_5152,base.gr
+gr_muni_615301,Mytilinis,615301,gr_regunit_6153,base.gr
+gr_muni_615302,Dytikis Lesvoy,615302,gr_regunit_6153,base.gr
+gr_muni_615401,Ikarias,615401,gr_regunit_6154,base.gr
+gr_muni_615402,Foyrnon Korseon,615402,gr_regunit_6154,base.gr
+gr_muni_615501,Limnoy,615501,gr_regunit_6155,base.gr
+gr_muni_615502,Agioy Eystratioy,615502,gr_regunit_6155,base.gr
+gr_muni_615601,Anatolikis Samoy,615601,gr_regunit_6156,base.gr
+gr_muni_615602,Dytikis Samoy,615602,gr_regunit_6156,base.gr
+gr_muni_615701,Chioy,615701,gr_regunit_6157,base.gr
+gr_muni_615702,Oinoysson,615702,gr_regunit_6157,base.gr
+gr_muni_615703,Iroikis Nisoy Psaron,615703,gr_regunit_6157,base.gr
+gr_muni_625801,Syroy - Ermoypolis,625801,gr_regunit_6258,base.gr
+gr_muni_625901,Androy,625901,gr_regunit_6259,base.gr
+gr_muni_626001,Santorinis,626001,gr_regunit_6260,base.gr
+gr_muni_626002,Anafis,626002,gr_regunit_6260,base.gr
+gr_muni_626003,Iiton,626003,gr_regunit_6260,base.gr
+gr_muni_626004,Sikinoy,626004,gr_regunit_6260,base.gr
+gr_muni_626005,Folegandroy,626005,gr_regunit_6260,base.gr
+gr_muni_626101,Kalymnion,626101,gr_regunit_6261,base.gr
+gr_muni_626102,Agathonisioy,626102,gr_regunit_6261,base.gr
+gr_muni_626103,Astypalaias,626103,gr_regunit_6261,base.gr
+gr_muni_626104,Leipson,626104,gr_regunit_6261,base.gr
+gr_muni_626105,Leroy,626105,gr_regunit_6261,base.gr
+gr_muni_626106,Patmoy,626106,gr_regunit_6261,base.gr
+gr_muni_626201,Karpathoy,626201,gr_regunit_6262,base.gr
+gr_muni_626202,Iroikis Nisoy Kasoy,626202,gr_regunit_6262,base.gr
+gr_muni_626301,Keas,626301,gr_regunit_6263,base.gr
+gr_muni_626302,Kythnoy,626302,gr_regunit_6263,base.gr
+gr_muni_626401,Ko,626401,gr_regunit_6264,base.gr
+gr_muni_626402,Nisyroy,626402,gr_regunit_6264,base.gr
+gr_muni_626501,Miloy,626501,gr_regunit_6265,base.gr
+gr_muni_626502,Kimoloy,626502,gr_regunit_6265,base.gr
+gr_muni_626503,Serifoy,626503,gr_regunit_6265,base.gr
+gr_muni_626504,Sifnoy,626504,gr_regunit_6265,base.gr
+gr_muni_626601,Mykonoy,626601,gr_regunit_6266,base.gr
+gr_muni_626701,Amorgoy,626701,gr_regunit_6267,base.gr
+gr_muni_626702,Naxoy Kai Mikron Kykladon,626702,gr_regunit_6267,base.gr
+gr_muni_626801,Paroy,626801,gr_regunit_6268,base.gr
+gr_muni_626802,Antiparoy,626802,gr_regunit_6268,base.gr
+gr_muni_626901,Rodoy,626901,gr_regunit_6269,base.gr
+gr_muni_626902,Megistis,626902,gr_regunit_6269,base.gr
+gr_muni_626903,Symis,626903,gr_regunit_6269,base.gr
+gr_muni_626904,Tiloy,626904,gr_regunit_6269,base.gr
+gr_muni_626905,Chalkis,626905,gr_regunit_6269,base.gr
+gr_muni_627001,Tinoy,627001,gr_regunit_6270,base.gr
+gr_muni_717101,Herakliony,717101,gr_regunit_7171,base.gr
+gr_muni_717102,Archanon - Asteroysion,717102,gr_regunit_7171,base.gr
+gr_muni_717103,Viannoy,717103,gr_regunit_7171,base.gr
+gr_muni_717104,Gortynas,717104,gr_regunit_7171,base.gr
+gr_muni_717105,Malevizioy,717105,gr_regunit_7171,base.gr
+gr_muni_717106,Minoa Pediadas,717106,gr_regunit_7171,base.gr
+gr_muni_717107,Faistoy,717107,gr_regunit_7171,base.gr
+gr_muni_717108,Chersonisoy,717108,gr_regunit_7171,base.gr
+gr_muni_717201,Agioy Nikolaoy,717201,gr_regunit_7172,base.gr
+gr_muni_717202,Ierapetras,717202,gr_regunit_7172,base.gr
+gr_muni_717203,Oropedioy Lasithioy,717203,gr_regunit_7172,base.gr
+gr_muni_717204,Siteias,717204,gr_regunit_7172,base.gr
+gr_muni_717301,Rethymnis,717301,gr_regunit_7173,base.gr
+gr_muni_717302,Agioy Vasileioy,717302,gr_regunit_7173,base.gr
+gr_muni_717303,Amarioy,717303,gr_regunit_7173,base.gr
+gr_muni_717304,Anogeion,717304,gr_regunit_7173,base.gr
+gr_muni_717305,Mylopotamoy,717305,gr_regunit_7173,base.gr
+gr_muni_717401,Chanion,717401,gr_regunit_7174,base.gr
+gr_muni_717402,Apokoronoy,717402,gr_regunit_7174,base.gr
+gr_muni_717403,Gaydoy,717403,gr_regunit_7174,base.gr
+gr_muni_717404,Kantanoy - Selinoy,717404,gr_regunit_7174,base.gr
+gr_muni_717405,Kissamoy,717405,gr_regunit_7174,base.gr
+gr_muni_717406,Platania,717406,gr_regunit_7174,base.gr
+gr_muni_717407,Sfakion,717407,gr_regunit_7174,base.gr

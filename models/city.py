@@ -2,7 +2,7 @@
 Extend `res.city` to link each City to a Municipality
 without breaking Odoo's standard behavior.
 """
-from odoo import fields, models, _
+from odoo import api, fields, models, _
 
 
 class ResCity(models.Model):
@@ -33,6 +33,14 @@ class ResCity(models.Model):
         help=_("Region of the parent Municipality (related).")
     )
     country_id = fields.Many2one(
-        comodel_name="res.country", related="municipality_id.region_id.country_id",
-        string=_("Country"), required=True
+        comodel_name="res.country",
+        string=_("Country"), required=True,
+        help=_("Country of this City."),
     )
+
+    @api.onchange("municipality_id")
+    def _onchange_municipality_id_set_country(self):
+        """When user picks a municipality first, auto-set the country."""
+        for rec in self:
+            if rec.municipality_id:
+                rec.country_id = rec.municipality_id.country_id

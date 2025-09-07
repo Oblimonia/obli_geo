@@ -1,0 +1,14 @@
+id,name,code,country_id:id
+gr_region_11,East Macedonia and Thrace,11,base.gr
+gr_region_12,Central Macedonia,12,base.gr
+gr_region_21,West Macedonia,21,base.gr
+gr_region_22,Epirus,22,base.gr
+gr_region_31,Thessaly,31,base.gr
+gr_region_32,Central Greece,32,base.gr
+gr_region_41,Ionian Islands,41,base.gr
+gr_region_42,West Greece,42,base.gr
+gr_region_43,Peloponnese,43,base.gr
+gr_region_51,Attica,51,base.gr
+gr_region_61,North Aegean,61,base.gr
+gr_region_62,South Aegean,62,base.gr
+gr_region_71,Crete,71,base.gr

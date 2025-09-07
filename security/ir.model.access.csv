@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_region_unit_user,region.unit user,model_region_unit,base.group_user,1,0,0,0
+access_region_unit_admin,region.unit admin,model_region_unit,base.group_system,1,1,1,1
+
+access_region_municipality_user,region.municipality user,model_region_municipality,base.group_user,1,0,0,0
+access_region_municipality_admin,region.municipality admin,model_region_municipality,base.group_system,1,1,1,1
+
+access_res_city_user,res.city user,model_res_city,base.group_user,1,0,0,0
+access_res_city_admin,res.city admin,model_res_city,base.group_system,1,1,1,1

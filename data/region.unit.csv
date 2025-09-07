@@ -1,0 +1,75 @@
+id,name,code,region_id:id,country_id:id
+gr_regunit_1101,Rhodope,1101,gr_region_11,base.gr
+gr_regunit_1102,Drama,1102,gr_region_11,base.gr
+gr_regunit_1103,Evros,1103,gr_region_11,base.gr
+gr_regunit_1104,Thasos,1104,gr_region_11,base.gr
+gr_regunit_1105,Kavala,1105,gr_region_11,base.gr
+gr_regunit_1106,Xanthi,1106,gr_region_11,base.gr
+gr_regunit_1207,Thessaloniki,1207,gr_region_12,base.gr
+gr_regunit_1208,Imathia,1208,gr_region_12,base.gr
+gr_regunit_1209,Kilkis,1209,gr_region_12,base.gr
+gr_regunit_1210,Pella,1210,gr_region_12,base.gr
+gr_regunit_1211,Pieria,1211,gr_region_12,base.gr
+gr_regunit_1212,Serres,1212,gr_region_12,base.gr,
+gr_regunit_1213,Chalkidiki,1213,gr_region_12,base.gr
+gr_regunit_2115,Grevena,2115,gr_region_21,base.gr
+gr_regunit_2116,Kastoria,2116,gr_region_21,base.gr
+gr_regunit_2114,Kozani,2114,gr_region_21,base.gr
+gr_regunit_2117,Florina,2117,gr_region_21,base.gr
+gr_regunit_2219,Arta,2219,gr_region_22,base.gr
+gr_regunit_2220,Thesprotia,2220,gr_region_22,base.gr
+gr_regunit_2218,Ioannina,2218,gr_region_22,base.gr
+gr_regunit_2221,Preveza,2221,gr_region_22,base.gr
+gr_regunit_3123,Karditsa,3123,gr_region_31,base.gr
+gr_regunit_3122,Larissa,3122,gr_region_31,base.gr
+gr_regunit_3124,Magnesia,3124,gr_region_31,base.gr
+gr_regunit_3125,Sporades,3125,gr_region_31,base.gr
+gr_regunit_3126,Trikala,3126,gr_region_31,base.gr
+gr_regunit_3228,Boeotia,3228,gr_region_32,base.gr
+gr_regunit_3229,Euboea,3229,gr_region_32,base.gr
+gr_regunit_3230,Evrytania,3230,gr_region_32,base.gr
+gr_regunit_3227,Phthiotis,3227,gr_region_32,base.gr
+gr_regunit_3231,Phocis,3231,gr_region_32,base.gr
+gr_regunit_4133,Zakynthos,4133,gr_region_41,base.gr
+gr_regunit_4132,Corfu,4132,gr_region_41,base.gr
+gr_regunit_4134,Ithaca,4134,gr_region_41,base.gr
+gr_regunit_4135,Kefalonia,4135,gr_region_41,base.gr
+gr_regunit_4136,Lefkada,4136,gr_region_41,base.gr
+gr_regunit_4238,Aetolia-Acarnania,4238,gr_region_42,base.gr
+gr_regunit_4237,Achaea,4237,gr_region_42,base.gr
+gr_regunit_4239,Elis,4239,gr_region_42,base.gr
+gr_regunit_4341,Argolis,4341,gr_region_43,base.gr
+gr_regunit_4340,Arcadia,4340,gr_region_43,base.gr
+gr_regunit_4342,Corinthia,4342,gr_region_43,base.gr
+gr_regunit_4343,Laconia,4343,gr_region_43,base.gr
+gr_regunit_4344,Messenia,4344,gr_region_43,base.gr
+gr_regunit_5145,Central Sector of Athens,5145,gr_region_51,base.gr
+gr_regunit_5146,North Sector of Athens,5146,gr_region_51,base.gr
+gr_regunit_5147,West Sector of Athens,5147,gr_region_51,base.gr
+gr_regunit_5148,South Sector of Athens,5148,gr_region_51,base.gr
+gr_regunit_5149,East Attica,5149,gr_region_51,base.gr
+gr_regunit_5150,West Attica,5150,gr_region_51,base.gr
+gr_regunit_5151,Piraeus,5151,gr_region_51,base.gr
+gr_regunit_5152,Islands,5152,gr_region_51,base.gr
+gr_regunit_6153,Lesbos,6153,gr_region_61,base.gr
+gr_regunit_6155,Lemnos,6155,gr_region_61,base.gr
+gr_regunit_6154,Ikaria,6154,gr_region_61,base.gr
+gr_regunit_6156,Samos,6156,gr_region_61,base.gr
+gr_regunit_6157,Chios,6157,gr_region_61,base.gr
+gr_regunit_6261,Kalymnos,6261,gr_region_62,base.gr
+gr_regunit_6262,Karpathos,6262,gr_region_62,base.gr
+gr_regunit_6264,Kos,6264,gr_region_62,base.gr
+gr_regunit_6269,Rhodes,6269,gr_region_62,base.gr
+gr_regunit_6258,Syros,6258,gr_region_62,base.gr
+gr_regunit_6259,Andros,6259,gr_region_62,base.gr
+gr_regunit_6260,Thira,6260,gr_region_62,base.gr
+gr_regunit_6263,Kea-Kythnos,6263,gr_region_62,base.gr
+gr_regunit_6265,Milos,6265,gr_region_62,base.gr
+gr_regunit_6266,Mykonos,6266,gr_region_62,base.gr
+gr_regunit_6267,Naxos,6267,gr_region_62,base.gr
+gr_regunit_6268,Paros,6268,gr_region_62,base.gr
+gr_regunit_6270,Tinos,6270,gr_region_62,base.gr
+gr_regunit_7171,Heraklion,7171,gr_region_71,base.gr
+gr_regunit_7172,Lasithi,7172,gr_region_71,base.gr
+gr_regunit_7173,Rethymno,7173,gr_region_71,base.gr
+gr_regunit_7174,Chania,7174,gr_region_71,base.gr

@@ -11,7 +11,7 @@
         "security/ir.model.access.csv",
         "data/res.country.state.csv",
         "data/region.unit.csv",
-        # "data/region.municipality.csv",
+        "data/region.municipality.csv",
 
         "views/country_views.xml",
         "views/region_views.xml",
